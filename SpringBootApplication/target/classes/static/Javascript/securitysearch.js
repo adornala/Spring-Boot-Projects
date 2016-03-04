@@ -8,6 +8,5 @@
 			if($('#securityusername').val()!= ''){
 				url = url + '/' +$('#securityusername').val();
 			}
-			alert(url);
 			$("#securityresults").load(url);
 		}
