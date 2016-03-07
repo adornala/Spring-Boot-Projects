@@ -13,7 +13,7 @@
 		<table class="table table-striped" id="results"
 			th:each="Security: ${users}">
 			<tr>
-				<th>Id</th>
+				<th th:text="${@environment.getProperty('name')}">Id</th>
 				<td th:text="${Security.id}">Id</td>
 			</tr>
 			<tr>

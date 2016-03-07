@@ -11,6 +11,5 @@ public interface SecurityRepository extends CrudRepository<Security , String> {
 	List<Security> findAll();
 	List<Security> findByusername(String username);
 	//Security save(Security save);
-
 	List<Security> findByPassword(String password);
 }
